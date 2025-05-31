@@ -2,7 +2,7 @@ import json
 from datetime import datetime, timedelta
 from pathlib import Path
 import os
-from settings import load_settings
+from pomodoro_py.settings import load_settings
 
 STATS_FILE_PATH = Path.home() / ".pomodoro_cli_stats.json"
 

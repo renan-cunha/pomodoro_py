@@ -11,6 +11,9 @@ dependencies = [
     "click (>=8.2.1,<9.0.0)"
 ]
 
+[tool.poetry.scripts]
+pomo = "pomodoro_py.main:cli"
+
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

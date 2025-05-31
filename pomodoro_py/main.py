@@ -2,10 +2,10 @@ import click
 import time
 import sys
 
-from cli_timer import Timer
-from settings import load_settings, save_settings, DEFAULT_SETTINGS
-from stats import save_daily_focus_time, get_today_stats_display
-from notifications import send_notification
+from pomodoro_py.cli_timer import Timer
+from pomodoro_py.settings import load_settings, save_settings, DEFAULT_SETTINGS
+from pomodoro_py.stats import save_daily_focus_time, get_today_stats_display
+from pomodoro_py.notifications import send_notification
 
 # Global variable to help manage timer state across KeyboardInterrupts
 _timer_instance = None
